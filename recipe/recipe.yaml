@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.6.3
+  version: 1.6.4
 
 package:
   name: livekit-plugins-google
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/l/livekit-plugins-google/livekit_plugins_google-${{ version }}.tar.gz
-    sha256: 735932278876e3ac3be86c3edc9050a59ddb6d6dfa77d8cab90ef0a5136063b1
+    sha256: 79a32de8d1141ee0e4a62e955db09061ebce7a4b96df98fe1ae1b0a707e1ad24
   - url: https://raw.githubusercontent.com/livekit/agents/refs/tags/livekit-agents%40${{ version }}/LICENSE
     sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
     file_name: LICENSE
@@ -29,7 +29,7 @@ requirements:
     - google-auth >=2,<3
     - google-cloud-speech >=2,<3
     - google-cloud-texttospeech >=2.32,<3
-    - livekit-agents >=1.6.3
+    - livekit-agents >=1.6.4
     - google-genai >=1.55
 tests:
   - python:
