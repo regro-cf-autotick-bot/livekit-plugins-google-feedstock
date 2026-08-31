@@ -30,6 +30,7 @@ requirements:
     - google-cloud-speech >=2,<3
     - google-cloud-texttospeech >=2.32,<3
     - livekit-agents >=1.7.1
+    - google-genai >=1.55
 tests:
   - python:
       python_version:
